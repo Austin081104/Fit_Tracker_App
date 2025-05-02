@@ -51,7 +51,8 @@ com.example.fit_tracker/
 
 
 📸 Screenshots:-
-![WhatsApp Image 2025-05-02 at 3 58 53 PM](https://github.com/user-attachments/assets/bb25b8ae-aa7c-40c2-8049-a4b76af97877)
+![splash](https://github.com/user-attachments/assets/33e3976e-19ae-4301-a178-4f5e1297510a)
+
 
 
 🛠 Setup Instructions
