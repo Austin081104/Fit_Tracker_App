@@ -51,7 +51,7 @@ com.example.fit_tracker/
 
 
 📸 Screenshots:-
-![splash](https://github.com/user-attachments/assets/33e3976e-19ae-4301-a178-4f5e1297510a)
+![splash](https://github.com/user-attachments/assets/33e3976e-19ae-4301-a178-4f5e1297510a) 
 
 
 
