@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/workoutScroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/workoutName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Workout Name"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginBottom="12dp" />
+
+        <ImageView
+            android:id="@+id/workoutImage"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/dumb"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/timerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time: 30s"
+            android:textSize="18sp"
+            android:textColor="#4CAF50"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/caloriesText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calories: 0"
+            android:textSize="18sp"
+            android:textColor="@color/background"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/setsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sets: 0"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/durationText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Duration: 0 seconds"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="12dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/startWorkoutBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Workout"
+            android:backgroundTint="#4CAF50"
+            android:textColor="@color/black"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/pauseResumeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pause"
+            android:backgroundTint="#FFC107"
+            android:textColor="#000"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/completeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Complete Set"
+            android:backgroundTint="#03A9F4"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/prevBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Previous"
+                android:backgroundTint="#CDDC39"
+                android:textColor="@color/black"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/nextBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Next"
+                android:backgroundTint="#4CAF50"
+                android:textColor="@color/black"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/finishEarlyBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Finish Early"
+            android:backgroundTint="#F44336"
+            android:textColor="@color/black"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/saveWorkoutBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Workout"
+            android:backgroundTint="#2196F3"
+            android:textColor="@color/black"
+            android:layout_marginBottom="24dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>

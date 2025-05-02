@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <EditText
+        android:id="@+id/editName"
+        android:hint="Full Name"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:drawablePadding="15dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/editAge"
+        android:hint="Age"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:drawableStart="@drawable/baseline_cake_24"
+        android:padding="12dp"      android:drawablePadding="15dp"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/editWeight"
+        android:hint="Weight (kg)"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:drawableStart="@drawable/baseline_monitor_weight_24"
+        android:padding="12dp"      android:drawablePadding="15dp"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/editHeight"
+        android:hint="Height (cm)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"
+        android:drawableStart="@drawable/baseline_height_24"
+        android:padding="12dp"      android:drawablePadding="15dp"
+        android:layout_marginBottom="4dp"/>
+</LinearLayout>

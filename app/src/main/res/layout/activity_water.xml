@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutWater"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".WaterActivity"
+    android:background="@drawable/bg_gradient">
+
+    <EditText
+        android:id="@+id/etWaterAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter water intake (ml)"
+        android:inputType="number"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:background="@color/white"/>
+
+    <Button
+        android:id="@+id/btnAddWater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/white"
+       android:backgroundTint="#2196F3"/>
+
+    <TextView
+        android:id="@+id/tvGoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today's Intake: 0 / 6000 ml"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:progress="0"
+        android:max="3000"
+        android:layout_marginTop="4dp"
+        android:progressTint="#2196F3"
+        android:backgroundTint="@android:color/darker_gray"/>
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChartWater"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="16dp"
+        tools:ignore="MissingClass" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Water Intake History"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewWater"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="8dp"/>
+
+</LinearLayout>

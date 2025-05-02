@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fit_Tracker</string>
+    <string-array name="chart_range_options">
+        <item>Day</item>
+        <item>Week</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".StretchActivity">
+
+    <LinearLayout
+        android:id="@+id/stretchLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/stretchTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stretch Routine"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/stretch_card_bg"
+            android:elevation="6dp"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp">
+
+            <!-- Image -->
+            <ImageView
+                android:id="@+id/stretchImage"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/stretch1"
+                android:contentDescription="Stretch Image"
+                android:background="@drawable/image_rounded_bg"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Description -->
+            <TextView
+                android:id="@+id/stretchDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Stretch instructions will appear here"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:padding="8dp"
+                android:background="#F1F1F1"
+                android:elevation="2dp"
+                android:layout_marginBottom="16dp"
+                android:textAlignment="center"
+                android:gravity="center" />
+
+            <!-- Timer -->
+            <TextView
+                android:id="@+id/timerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:textColor="#3F51B5"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:layout_marginBottom="8dp" />
+        </LinearLayout>
+
+        <!-- Start Button -->
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Stretching"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:background="@drawable/button_rounded_purple"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Navigation Buttons -->
+        <LinearLayout
+            android:id="@+id/buttonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="2"
+            android:layout_marginBottom="24dp">
+
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Back"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/button_rounded_gray" />
+
+            <Button
+                android:id="@+id/nextButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Next"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/button_rounded_green"
+               />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
