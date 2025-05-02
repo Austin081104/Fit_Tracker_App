@@ -51,7 +51,16 @@ com.example.fit_tracker/
 
 
 📸 Screenshots:-
-![splash](https://github.com/user-attachments/assets/33e3976e-19ae-4301-a178-4f5e1297510a) 
+![splash](https://github.com/user-attachments/assets/33e3976e-19ae-4301-a178-4f5e1297510a) ![Login](https://github.com/user-attachments/assets/a95d8b2a-1603-4a55-960c-5b98d6a30026) ![Registration](https://github.com/user-attachments/assets/14c00ab2-f9ee-401b-b687-6daf6306a167)![Home](https://github.com/user-attachments/assets/54507ab8-cc2f-46f2-a233-963444c69ee3) ![Progress](https://github.com/user-attachments/assets/aee626af-18af-477e-8365-26d863164431)![Profile](https://github.com/user-attachments/assets/2a82db65-f012-497c-95ca-5a3fa031f5ba)![WaterActivity](https://github.com/user-attachments/assets/31f7348f-71ca-4359-ae8b-b5eadaebbc77)![SleepActivity](https://github.com/user-attachments/assets/2026a695-120b-401b-b2f7-74c9fe80b3a1)![Strech](https://github.com/user-attachments/assets/e1a4d7f5-b254-4e9d-a06b-ed32db20ac1d)![Workout](https://github.com/user-attachments/assets/895e3d4b-d9c8-4327-9ac1-99cba6ddb664)![WorkoutPage](https://github.com/user-attachments/assets/73e5bb7a-c30e-46e2-9128-4f79b637a006)
+
+
+
+
+
+
+
+
+
 
 
 
