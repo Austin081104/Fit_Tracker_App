@@ -29,7 +29,7 @@ It helps users log and visualize their **steps**, **sleep hours**, **water intak
 
 ## 📂 Project Structure
 
-```plaintext
+plaintext
 com.example.fit_tracker/
 ├── activities/
 │   ├── Login.java
@@ -50,24 +50,36 @@ com.example.fit_tracker/
     └── StepData.java (custom model)
 
 
-📸 Screenshots
+📸 Screenshots:-
+![WhatsApp Image 2025-05-02 at 3 58 53 PM](https://github.com/user-attachments/assets/bb25b8ae-aa7c-40c2-8049-a4b76af97877)
+
 
 🛠 Setup Instructions
 Clone the repo:
-
-bash
-Copy
-Edit
 git clone https://github.com/YOUR_USERNAME/FitTracker.git
 cd FitTracker
+
 Open in Android Studio
-
 Add Firebase:
-
 Connect project to Firebase
-
 Enable Firestore and Authentication
-
 Add your google-services.json to /app/
-
 Build & Run!
+
+✨ Future Enhancements
+Add step sensor integration (pedometer)
+
+Add notifications/reminders for hydration or bedtime
+
+Add light/dark theme toggle
+
+Graphs for trends (bar/line charts)
+
+📄 License
+MIT License.
+Feel free to fork, modify, and contribute!
+
+🤝 Contributing
+Pull requests are welcome!
+For major changes, please open an issue first to discuss what you’d like to change.
+
